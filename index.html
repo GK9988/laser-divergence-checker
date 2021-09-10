@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Divergence Angle Calculator</title>
+  </head>
+  <body>
+    <div class="main-app-container">
+      <div class="heading">
+        <h1>Divergence of a laser beam calculator</h1>
+      </div>
+      <div class="main-input-container">
+        <div class="input-container" id="dist">
+          <label for="dist">Enter the value of D:</label>
+          <input type="text" id="distance" placeholder="Enter the value of D" />
+        </div>
+        <div class="input-container" id="input1">
+          <label for="dia-1">Enter the value of W1:</label>
+          <input type="text" id="dia-1" placeholder="Enter the value of W1" />
+        </div>
+        <div class="input-container" id="input2">
+          <label for="dia-2">Enter the value of W2:</label>
+          <input type="text" id="dia-2" placeholder="Enter the value of W2" />
+        </div>
+        <div class="input-container" id="input3">
+          <label for="dia-3">Enter the value of W3:</label>
+          <input type="text" id="dia-3" placeholder="Enter the value of W3" />
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn-submit">Submit</button>
+      </div>
+      <div class="main-answer-container">
+        <div class="answer-container">
+          <h1>Your answer is:</h1>
+          <h1 id="answer"></h1>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
